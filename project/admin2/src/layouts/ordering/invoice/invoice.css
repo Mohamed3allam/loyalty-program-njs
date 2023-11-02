@@ -1,0 +1,9 @@
+@media print {
+    #invoice_print {
+      background: white;
+      position: absolute;
+      z-index: 1;
+      inset: 0;
+      border: 10px solid coral;
+    }
+  }
