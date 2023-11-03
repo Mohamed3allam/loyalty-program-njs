@@ -1,11 +1,11 @@
 const LoyaltyPoints = require('../models/LP')
 
-const test = async() => {
-    const docNum = await LoyaltyPoints.countDocuments()
-    console.log(docNum)
+// const test = async() => {
+//     const docNum = await LoyaltyPoints.countDocuments()
+//     console.log(docNum)
 
-}
-test()
+// }
+// test()
 // const addLoyaltyPoints = async (req, res) => {
 //     const { loyalty_points, egp } = req.body
 //     try {
